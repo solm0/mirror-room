@@ -1,7 +1,7 @@
 navigator.mediaDevices.getUserMedia({
     video: {
-        width: { ideal: 1 },
-        height: { ideal: 1 }
+        width: { exact: 1 },
+        height: { exact: 1 }
     }
 })
 .then(function (stream) {
